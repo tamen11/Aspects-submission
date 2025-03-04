@@ -8,21 +8,21 @@ public class controllers {
 
     @GetMapping
     public String getResource() {
-        return "GET: Retrieved resource";
+        return "GET";
     }
 
     @PostMapping
     public String createResource() {
-        return "POST: Resource created successfully";
+        return "POST";
     }
 
     @PutMapping
     public String updateResource() {
-        return "PUT: Resource updated successfully";
+        return "PUT";
     }
 
     @DeleteMapping
     public String deleteResource() {
-        return "DELETE: Resource deleted successfully";
+        return "DELETE";
     }
 }

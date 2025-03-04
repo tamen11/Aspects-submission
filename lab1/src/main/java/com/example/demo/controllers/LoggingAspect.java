@@ -10,6 +10,6 @@ public class LoggingAspect {
 
     @Before("execution(* com.example.demo.controllers.*.*(..))")
     public void logBeforeController() {
-        System.out.println("Controller method is about to be called...");
+        System.out.println("method is about to be called...");
     }
 }
