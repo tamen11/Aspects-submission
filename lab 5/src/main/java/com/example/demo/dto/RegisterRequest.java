@@ -1,19 +1,10 @@
-package com.example.demo.model;
+package com.example.demo.dto;
 
-public class User {
+public class RegisterRequest {
     private String username;
     private String password;
 
-    public User() {
-        // Default constructor
-    }
-
-    public User(String username, String password) {
-        this.username = username;
-        this.password = password;
-    }
-
-    // Getter and Setter
+    // Getters and setters
     public String getUsername() {
         return username;
     }

@@ -1,19 +1,10 @@
 package com.example.demo.dto;
 
-public class AuthRequest {
+public class LoginRequest {
     private String username;
     private String password;
 
-    public AuthRequest() {
-        // Default constructor
-    }
-
-    public AuthRequest(String username, String password) {
-        this.username = username;
-        this.password = password;
-    }
-
-    // Getter and Setter
+    // Getters and setters
     public String getUsername() {
         return username;
     }
